@@ -1,7 +1,7 @@
 import java.util.Collections;
 import java.util.LinkedList;
 
-public class TrialThread implements Runnable {
+public class TrialThread extends Thread {
 
     private final String taskName;
 
